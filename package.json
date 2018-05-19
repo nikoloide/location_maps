@@ -5,7 +5,7 @@
   "devDependencies": {
     "react-scripts": "1.0.17"
   },
-  "homepage": "https://franrios.github.io/location-history-map",
+  "homepage": "https://nikoloide.github.io/location_maps",
   "dependencies": {
     "deck.gl": "^5.0.0",
     "gh-pages": "^1.1.0",
