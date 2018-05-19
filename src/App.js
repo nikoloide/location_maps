@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import ReactMapGL from "react-map-gl"
 import DeckGL, { ArcLayer, GridLayer } from "deck.gl"
 
-import { MAPBOX_ACCESS_TOKEN } from "./.secrets"
+//import { MAPBOX_ACCESS_TOKEN } from "./.secrets"//
 import { Controller } from "./Controller"
 import "./App.css"
 import { getFlightTrips } from "./utils"
@@ -61,7 +61,7 @@ class App extends Component {
       <div>
         <ReactMapGL
           {...viewport}
-          mapboxApiAccessToken={MAPBOX_ACCESS_TOKEN}
+          mapboxApiAccessToken="pk.eyJ1IjoibmlzYW50aWwiLCJhIjoiY2pnNTlyem5xN2hvMDMzczJjbDlncTA5ZSJ9.G4poDRUAwKLBYoKHaSlw7A"
           mapStyle="mapbox://styles/mapbox/dark-v9"
           onViewportChange={vp => this.onViewportChange(vp)}
         >
